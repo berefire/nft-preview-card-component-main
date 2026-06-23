@@ -1,0 +1,18 @@
+@layer tokens.primitives {
+    :root {
+        --primary-ff: 'Outfit', sans-serif;
+
+        --text-preset-1-size: 1.375rem;  /* 22px */
+        --text-preset-1-lh: 1.25;
+
+        --text-preset-2-size: 1.125rem;  /* 18px */
+        --text-preset-2-lh: 1.45;
+
+        --text-preset-3-size: 1rem;
+        --text-preset-3-lh: 1.25;
+
+        --fw-light: 300;
+        --fw-regular: 400;
+        --fw-semibold: 600;
+    }
+}
