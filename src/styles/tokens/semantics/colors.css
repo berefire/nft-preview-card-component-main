@@ -1,0 +1,6 @@
+@layer tokens.semantics {
+    :root {
+        --bg-primary: var(--blue-950);
+        --fc-primary: var(--blue-500);
+    }
+}
