@@ -1,0 +1,25 @@
+@layer utilities {
+    .text-preset-1 {
+        font-size: var(--text-preset-1-size);
+        line-height: var(--text-preset-1-lh);
+        font-weight: var(--fw-semibold);
+    }
+
+    .text-preset-2 {
+        font-size: var(--text-preset-2-size);
+        line-height: var(--text-preset-2-lh);
+        font-weight: var(--fw-light);
+    }
+
+    .text-preset-3--regular {
+        font-size: var(--text-preset-3-size);
+        line-height: var(--text-preset-3-lh);
+        font-weight: var(--fw-regular);
+    }
+
+    .text-preset-3--semibold {
+        font-size: var(--text-preset-3-size);
+        line-height: var(--text-preset-3-lh);
+        font-weight: var(--fw-semibold);
+    }
+}

@@ -1,4 +1,6 @@
-@layer components, utilities;
+@layer reset, tokens.primitives, tokens.semantics, base, components, utilities;
 
+@import "@base/index.css";
+@import "@tokens/index.css";
 @import "@components/index.css";
 @import "@utilities/index.css";

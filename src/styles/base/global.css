@@ -1,0 +1,26 @@
+@layer base {
+    html {
+        font-family: var(--primary-ff);
+        background-color: var(--bg-primary);
+        color: var(--fc-primary);
+        -webkit-text-size-adjust: 100%;
+    }
+
+    html,
+    body {
+        min-block-size: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin-top: auto;
+    }
+
+    @supports (min-block-size: 100dvh) {
+        html,
+        body {
+            min-block-size: 100dvh;
+        }
+    }
+}
