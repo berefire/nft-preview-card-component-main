@@ -1,6 +1,7 @@
-@layer reset, tokens.primitives, tokens.semantics, base, components, utilities;
+@layer reset, tokens.primitives, tokens.semantics, base, layout, components, utilities;
 
 @import "@base/index.css";
 @import "@tokens/index.css";
+@import "@layout/index.css";
 @import "@components/index.css";
 @import "@utilities/index.css";

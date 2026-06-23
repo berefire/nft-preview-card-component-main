@@ -1,0 +1,13 @@
+@layer utilities {
+    .radius {
+        border-radius: var(--radius, 0);
+    }
+
+    .radius--sm {
+        --radius: 0.5rem;
+    }
+
+    .radius--md {
+        --radius: 0.9375rem;
+    }
+}

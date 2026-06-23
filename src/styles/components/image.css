@@ -1,0 +1,7 @@
+@layer components {
+    .card__image {
+        margin-inline: auto;
+        max-inline-size: 18.875rem;
+        block-size: auto;
+    }
+}

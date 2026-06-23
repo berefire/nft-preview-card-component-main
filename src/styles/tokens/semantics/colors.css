@@ -2,5 +2,12 @@
     :root {
         --bg-primary: var(--blue-950);
         --fc-primary: var(--blue-500);
+
+        --bg-card: var(--blue-900);
+        --bg-border-avatar: var(--white);
+
+        --fc-card-title: var(--white);
+        --fc-card-price: var(--cyan-400);
+        --fc-card-creator: var(--white);
     }
 }

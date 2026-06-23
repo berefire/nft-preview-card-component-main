@@ -1,0 +1,11 @@
+@layer layout {
+    .box {
+        padding-inline: var(--padding-inline-box, 0);
+        padding-block: var(--padding-block-box, 0);
+    }
+
+    .box--lg {
+        --padding-inline-box: var(--padding-inline-box-lg);
+        --padding-block-box: var(--padding-block-box-lg);
+    }
+}

@@ -1,0 +1,34 @@
+@layer components {
+    .card__content {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-flex-card);
+    }
+
+    .card__header {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-flex-header);
+    }
+
+    .card__details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card__price, .card__time {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: var(--gap-flex-details);
+    }
+
+    .title {
+        color: var(--fc-card-title);
+    }
+
+    .card__price {
+        color: var(--fc-card-price);
+    }
+}

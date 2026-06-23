@@ -1,0 +1,19 @@
+@layer components {
+    .card__creator {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: var(--gap-flex-creator);
+    }
+
+    .avatar-icon {
+        inline-size: 2.0625rem;
+        block-size: 2.0625rem;
+        border-radius: 50%;
+        border: 0.0625em solid var(--bg-border-avatar);
+    }
+
+    .creator__name {
+        color: var(--fc-card-creator);
+    }
+}

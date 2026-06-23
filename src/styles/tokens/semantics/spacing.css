@@ -1,0 +1,11 @@
+@layer tokens.semantics {
+    :root {
+        --padding-inline-box-lg: var(--spacing-300);
+        --padding-block-box-lg: var(--spacing-300);
+
+        --gap-flex-card: var(--spacing-300);
+        --gap-flex-header: var(--spacing-200);
+        --gap-flex-details: var(--spacing-100);
+        --gap-flex-creator: var(--spacing-200);
+    }
+}

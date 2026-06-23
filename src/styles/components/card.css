@@ -1,0 +1,10 @@
+@layer components {
+    .card {
+        background-color: var(--bg-card);
+        max-inline-size: min(calc(100% - 1rem), 21.875rem);
+
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-flex-card);
+    }
+}
