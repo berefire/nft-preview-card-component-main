@@ -1,0 +1,5 @@
+@layer states {
+    .card__title-link:hover {
+        color: var(--fc-card-title-hover);
+    }
+}

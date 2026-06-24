@@ -1,0 +1,5 @@
+@layer states {
+    .creator__name:hover {
+        color: var(--fc-creator-name-hover);
+    }
+}

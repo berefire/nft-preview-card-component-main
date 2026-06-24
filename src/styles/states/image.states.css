@@ -1,0 +1,5 @@
+@layer states {
+    .card__media-link:is(:hover, :focus-visible) .card__overlay {
+        opacity: 1;
+    }
+}

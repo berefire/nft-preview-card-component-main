@@ -9,5 +9,10 @@
         --fc-card-title: var(--white);
         --fc-card-price: var(--cyan-400);
         --fc-card-creator: var(--white);
+
+        --fc-card-title-hover: var(--cyan-400);
+        --fc-creator-name-hover: var(--cyan-400);
+
+        --bg-eye-icon: var(--white);
     }
 }

@@ -24,7 +24,7 @@
         gap: var(--gap-flex-details);
     }
 
-    .title {
+    .card__title-link {
         color: var(--fc-card-title);
     }
 

@@ -1,7 +1,29 @@
 @layer components {
+    .card__media-link{
+        position: relative;
+        display: block;
+        overflow: hidden;
+    }
+
     .card__image {
         margin-inline: auto;
         max-inline-size: 18.875rem;
         block-size: auto;
+    }
+
+    .card__overlay {
+        position: absolute;
+        inset: 0;
+
+        display: grid;
+        place-items: center;
+
+        background-color: rgb(0 255 248 / 0.5);
+        opacity: 0;
+        transition: opacity 200ms ease;
+    }
+
+    .card__eye-icon {
+        color: var(--bg-eye-icon);
     }
 }
