@@ -2,4 +2,9 @@
     .card__media-link:is(:hover, :focus-visible) .card__overlay {
         opacity: 1;
     }
+
+    .card__media-link:focus-visible {
+        outline: 0.125em solid currentColor;
+        outline-offset: 0.125em;
+    }
 }

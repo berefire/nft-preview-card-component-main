@@ -2,4 +2,9 @@
     .creator__name:hover {
         color: var(--fc-creator-name-hover);
     }
+
+    .creator__name:focus-visible {
+        outline: 0.125em solid currentColor;
+        outline-offset: 0.125em;
+    }
 }
