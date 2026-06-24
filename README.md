@@ -1,5 +1,19 @@
 # Frontend Mentor - NFT preview card component solution
 
+![GitHub last commit](https://img.shields.io/github/last-commit/berefire/nft-preview-card-component-main)
+![Repo size](https://img.shields.io/github/repo-size/berefire/nft-preview-card-component-main)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+[![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-3e54a3?style=for-the-badge&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/)
+[![Vite](https://img.shields.io/badge/Vite-Build%20Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+![Semantic HTML](https://img.shields.io/badge/Semantic%20HTML-ff9800?style=for-the-badge)
+![Accessibility](https://img.shields.io/badge/Accessibility-A11Y-0052cc?style=for-the-badge)
+![Responsive Layout](https://img.shields.io/badge/Responsive%20Layout-Full%20Support-blue?style=for-the-badge)
+![Mobile First](https://img.shields.io/badge/Mobile--First-Design-orange?style=for-the-badge)
+[![Google Lighthouse](https://img.shields.io/badge/Lighthouse-Audit-00B0FF?style=for-the-badge&logo=lighthouse&logoColor=white)](./assets/downloads/lighthouse-performance-report.pdf)
+
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
@@ -8,7 +22,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+- [My process](#️my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -16,9 +30,9 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+---
 
-## Overview
+## 📖Overview
 
 ### The challenge
 
@@ -27,85 +41,146 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+---
 
-![](./screenshot.jpg)
+### 📸Screenshot
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+#### Mobile (375x914)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+| _Main_ | _Active_ |
+| ------ | -------- |
+| ![Mobile](./screenshots/mobile.png) | ![Mobile Active](./screenshots/mobile-active.png) |
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+#### Tablet (768x914)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+| _Main_ | _Active_ |
+| ------ | -------- |
+| ![Tablet](./screenshots/tablet.png) | ![Mobile Active](./screenshots/tablet-active.png) |
 
-### Links
+#### Desktop (1440x914)
+
+| _Main_ | _Active_ |
+| ------ | -------- |
+| ![Desktop](./screenshots/desktop.png) | ![Desktop Active](./screenshots/desktop-active.png) |
+
+---
+
+### 🔗Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://berefire.github.io/nft-preview-card-component-main/](https://berefire.github.io/nft-preview-card-component-main/)
 
-## My process
+---
 
-### Built with
+## ⚙️My process
+
+### 🛠Built with
 
 - Semantic HTML5 markup
+- Modern CSS
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- CUBE CSS architecture
+- BEM naming convention
+- Accessible focus and hover states
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+---
 
-### What I learned
+### 💡What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project helped me reinforce the importance of combining semantic HTML with accessible interactions.
 
-To see how you can add code snippets, see below:
+One area I focused on was creating an accessible interactive image overlay while keeping decorative elements hidden from assistive technologies.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+<a href="#" class="card__link"> 
+  <img class="card__image" src="src/assets/images/image-equilibrium.jpg" alt="Equilibrium #3429" /> 
+  <span class="card__overlay" aria-hidden="true"> 
+    <!-- Decorative icon --> 
+     </span> 
+</a>
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+I also practiced combining CUBE CSS utilities with BEM component classes:
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```html
+<article class="card box box--lg radius radius--md">
+```
 
-### Continued development
+This approach helped keep the component styles modular, reusable, and easy to maintain.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+---
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+### 🚀Continued development
 
-### Useful resources
+In future projects, I want to continue improving:
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Accessibility-first development practices.
+- Semantic HTML structure.
+- Component architecture using CUBE CSS.
+- Creating reusable utility classes.
+- Writing scalable and maintainable CSS.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+---
 
-## Author
+### 📚Useful resources
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- [https://cube.fyi/](https://cube.fyi/) - A great resource for learning CUBE CSS and creating scalable stylesheets.
+- [https://developer.mozilla.org/](https://developer.mozilla.org/) - My primary reference for HTML, CSS, and accessibility documentation.
+- [https://www.w3.org/WAI/](https://www.w3.org/WAI/) - Helpful accessibility guidance and best practices.
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+---
 
-## Acknowledgments
+### 🤖AI Collaboration
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+AI tools were used throughout development as a learning aid, code review partner, and accessibility consultant.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+---
+
+#### Tools AI Was Used
+
+- ChatGPT
+
+#### How AI Was Used
+
+- Reviewing semantic HTML structure.
+- Discussing accessibility best practices.
+- Evaluating ARIA usage and interactive states.
+- Reviewing CSS architecture decisions.
+- Refining CUBE CSS and BEM integration.
+- Improving component organization and maintainability.
+- Generating project documentation and metadata.
+- Identifying potential usability and accessibility issues.
+
+#### What Worked Well
+
+- Accessibility-focused code reviews.
+- Semantic HTML recommendations.
+- CSS architecture discussions.
+- Exploring alternative implementation approaches.
+- Identifying opportunities to simplify code.
+- Documentation and README generation.
+
+#### What Didn't Work Well
+
+- AI suggestions occasionally required adaptation to fit the project's architecture.
+- Accessibility recommendations still needed verification through manual testing.
+- Generated code and feedback required validation against project requirements and browser behavior.
+
+AI was used as a collaborative learning and review tool rather than a replacement for implementation, testing, debugging, or decision-making.
+
+---
+
+## 👤Author
+
+- Frontend Mentor - [@berefire](https://www.frontendmentor.io/profile/berefire)
+- GitHub - [@berefire](https://github.com/berefire)
+
+---
+
+## 🙏Acknowledgments
+
+Thanks to Frontend Mentor for providing practical challenges that help developers improve real-world frontend skills.
+
+---
