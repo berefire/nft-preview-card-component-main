@@ -67,7 +67,7 @@ Users should be able to:
 
 ### 🔗Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-semantic-html-and-cube-css-uQYTxJJP8Q](https://www.frontendmentor.io/solutions/nft-preview-card-component-semantic-html-and-cube-css-uQYTxJJP8Q)
 - Live Site URL: [https://berefire.github.io/nft-preview-card-component-main/](https://berefire.github.io/nft-preview-card-component-main/)
 
 ---
