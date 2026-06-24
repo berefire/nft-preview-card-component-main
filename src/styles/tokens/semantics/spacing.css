@@ -7,5 +7,7 @@
         --gap-flex-header: var(--spacing-200);
         --gap-flex-details: var(--spacing-100);
         --gap-flex-creator: var(--spacing-200);
+
+        --padding-block-start-creator: var(--spacing-300);
     }
 }

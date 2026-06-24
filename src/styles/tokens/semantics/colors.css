@@ -14,5 +14,7 @@
         --fc-creator-name-hover: var(--cyan-400);
 
         --bg-eye-icon: var(--white);
+
+        --bg-border-card: var(--blue-800);
     }
 }
